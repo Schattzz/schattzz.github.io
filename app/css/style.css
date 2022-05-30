@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body{
+    font-family: "Roboto",sans-serif;
+    user-select: none;
+}
+h6,p{
+    text-shadow: 2px 2px #101010a8;
+}
+
+#icon{
+    width: 20px;
+    height: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+
+.text-block{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bg_1{
+    background: url("../images/bg_1.jpg");
+    background-size: 200%;
+    background-clip: border-box;
+    border-radius: 5px;
+}
+
+.bg_2{
+    background: url("../images/bg_2.png");
+    background-size: 200%;
+    background-clip: border-box;
+    border-radius: 5px;
+}
+
+.bg_3{
+    background: url("../images/bg_3.jpg");
+    background-size: 200%;
+    background-clip: border-box;
+    border-radius: 5px;
+}
+
+.bg_4{
+    background: url("../images/bg_4.jpg");
+    background-size: 200%;
+    background-clip: border-box;
+    border-radius: 5px;
+}
+
+.art_thmb{
+    background-size: 200%;
+    background-clip: border-box;
+}
+
+#backbtn{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+  }
